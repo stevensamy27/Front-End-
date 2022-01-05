@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <title>Hello, World</title>
+    </head>
+    <body>   
+
+
+
+        <!-- To move an items vertically -->
+
+            <!-- 
+                For a row  we write   "align-items-(start,center,end)"
+
+                like >> <div class="row align-items-start" >   </div>
+                        <div class="row align-items-center" >  </div>
+                        <div class="row align-items-end" >     </div>
+            -->
+
+            <!-- 
+                For a col  we write   "align-self-(start,center,end)"
+
+                like >> <div class="row align-self-start" >  </div>
+                        <div class="row align-self-center" > </div>
+                        <div class="row align-self-end" >    </div>
+            -->
+            
+        <div class="row " style="height: 200px;background: #ff0;">
+            <div class="col-4 align-self-center">left</div>
+            <div class="col-4 align-self-start">center</div>
+            <div class="col-4 align-self-end">right</div>
+        </div>
+
+
+
+        <!-- To move an items Horizontally -->
+        <!-- 
+                For a row  we write   "justify-content-(start,center,end,between,around)"
+
+                like >> <div class="row justify-content-start" >   </div>
+                        <div class="row justify-content-center" >  </div>
+                        <div class="row justify-content-end" >     </div>
+                        <div class="row justify-content-between" > </div>
+                        <div class="row justify-content-around" >  </div>
+                        
+            -->
+
+
+        <div class="row justify-content-start " style="height: 200px;background: rgb(255, 51, 0);">
+            <div class="col-4 ">left</div>
+            <div class="col-4 ">right</div>
+        </div>
+
+
+        <script src="js/popper.min.js"></script>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.js"></script> 
+    </body>
+</html>  
